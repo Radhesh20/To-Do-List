@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+  <div class="container py-5">
+    <div class="card p-4 shadow-lg rounded">
+      <h2 class="mb-4 text-center"><i class="bi bi-journal-check me-2"></i>To-Do List</h2>
+      <div class="input-group mb-3">
+        <input type="text" id="task-input" class="form-control" placeholder="Add a new task...">
+        <button id="add-btn" class="btn btn-primary">Add</button>
+      </div>
+      <div class="mb-3 text-center">
+        <button id="filter-all" class="btn btn-outline-secondary me-2" onclick="setFilter('all')">All</button>
+        <button id="filter-active" class="btn btn-outline-warning me-2" onclick="setFilter('active')">Active</button>
+        <button id="filter-completed" class="btn btn-outline-success" onclick="setFilter('completed')">Completed</button>
+      </div>
+      
+      <ul id="task-list" class="list-group"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

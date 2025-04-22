@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+  max-width: 600px;
+  margin: auto;
+}
+#task-list li span {
+  flex: 1;
+}
+.bi {
+  visibility: visible !important;
+  font-size: 2rem;
+}
+.bi-circle:hover, .bi-check-circle-fill:hover {
+  color: #0d6efd; /* Bootstrap primary color */
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+.active-filter {
+  font-weight: bold;
+  border-width: 2px !important;
+  box-shadow: 2px 4px 8px rgba(62, 215, 28, 0.5);
+}
+
+
