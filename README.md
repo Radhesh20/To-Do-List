@@ -31,6 +31,11 @@ A sleek and functional to-do list web application built using **HTML**, **CSS (B
 - JavaScript (Vanilla)
 
 ---
+## 🌐 Live Demo
+
+🔗 [Check it out on GitHub Pages](https://radhesh20.github.io/To-Do-List/)
+
+---
 
 ## 📦 Setup
 
